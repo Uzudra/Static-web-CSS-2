@@ -11,17 +11,16 @@
 
 <body>
     <div class="navbar">
-        <a class="active" href="index.html"><i class="fa-solid fa-house"></i>Home</a>
-        <a href="bordes.html"><i class="fa-regular fa-square"></i>Bordes</a>
-        <a href="textos.html"><i class="fa-solid fa-font"></i>Textos</a>
-        <a href="fondos.html"><i class="fa-solid fa-image"></i>Fondos</a>
-        <a href="animaciones.html"><i class="fa-solid fa-film"></i>Animaciones</a>
+        <a class="active show" href="index.html"><i class="fa-solid fa-house"></i>Home</a>
+        <a class="show" href="bordes.html"><i class="fa-regular fa-square"></i>Bordes</a>
+        <a class="show" href="textos.html"><i class="fa-solid fa-font"></i>Textos</a>
+        <a class="show" href="fondos.html"><i class="fa-solid fa-image"></i>Fondos</a>
+        <a class="show" href="animaciones.html"><i class="fa-solid fa-film"></i>Animaciones</a>
 
-        <div class="responsive">
+        <div  onclick="toggleMenu()" class="responsive">
             <i class="fa-solid fa-bars"></i>
         </div>
     </div>
-
     <div class="introduccion">
 
         <h1>Ejemplos de CSS</h1>
@@ -42,6 +41,7 @@
         <a href="https://fonts.google.com/" target="_blank">Google Fonts</a><br>
     </div>
 
+    <script src="index.js"></script>
 </body>
 
 </html>
