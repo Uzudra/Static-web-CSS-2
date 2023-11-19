@@ -1,0 +1,43 @@
+.container{
+    display: grid;
+    grid-template-columns: 33% 33% 20%;
+    background-color: rgb(173, 171, 171);
+    gap: 30px;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.container > div{
+    background-color: dimgray;
+    padding: 15px;
+    text-align: center;
+}
+.cajita{
+    max-width: 200px;
+    height: 100px;
+}
+
+.Solid{
+    border: 5px Solid black;
+}
+.Dotted{
+    border: 5px Dotted black;
+}
+.Dashed{
+    border: 5px Dashed black;
+}
+.Double{
+    border: 5px Double black;
+}
+.Groove{
+    border: 5px Groove black;
+}
+.Ridge{
+    border: 5px Ridge black;
+}
+.Inset{
+    border: 5px Inset black;
+}
+.Outset{
+    border: 5px Outset black;
+}

@@ -1,0 +1,119 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(131, 130, 130);
+    justify-content: space-evenly;
+    gap: 5px;
+    margin: 0 auto;
+    padding: 15px;
+}
+.container>div {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    max-width: auto;
+    min-height: 100px;
+    border-radius: 10px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(131, 130, 130);
+    justify-content: space-evenly;
+    gap: 10px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.grid-container > div{
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    max-width: auto;
+    min-height: 50px;
+    border-radius: 10px;
+}
+.grid-container1{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(131, 130, 130);
+    justify-content: space-evenly;
+    gap: 5px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.grid-container1 > div{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    max-width: auto;
+    min-height: 100px;
+    border-radius: 10px;
+}
+
+
+.left {
+    font-size: 14px;
+    text-align: left;
+}
+
+.right {
+    font-size: 14px;
+    text-align: right;
+}
+
+.center:not(h3) {
+    font-size: 14px;
+    text-align: center;
+}
+
+.justify {
+    font-size: 14px;
+    text-align: justify;
+}
+
+h5,h3 {
+    text-align: center;
+}
+
+p.justify strong {
+    letter-spacing: 5px;
+}
+
+.overline{
+    text-decoration: overline;
+}
+.line-through{
+    text-decoration: line-through;
+}
+.underline{
+    text-decoration: underline;
+}
+.overline-underline{
+    text-decoration: overline underline;
+}
+
+.Uppercase{
+    text-transform: Uppercase;
+}
+.lowercase{
+    text-transform: lowercase;
+}
+.Capitalize{
+    text-transform: Capitalize;
+}
+
+.serif{
+    font-family: serif;
+}
+.sans-serif{
+    font-family: sans-serif;
+}
+.monospace{
+    font-family: monospace;
+}
+.cursive{
+    font-family: 'lucida handwriting', cursive;
+}
+.fantasy{
+    font-family: fantasy;
+}
