@@ -1,44 +1,80 @@
-.container{
+.container {
     display: grid;
-    grid-template-columns: 33% 33% 20%;
-    background-color: rgb(173, 171, 171);
-    gap: 30px;
-    padding: 10px;
-    justify-content: space-around;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    justify-content: center;
+    background-color: bisque;
 }
 
-.container > div{
+.container>div {
+    box-sizing: border-box;
+    height: 25vh;
+    width: 25vw;
     background-color: dimgray;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
 }
-.cajita{
-    max-width: 200px;
-    height: 100px;
+
+.cajita {
+    width: 150px;
+    height: 150px;
     border-radius: 5px;
 }
 
-.Solid{
+.Solid {
     border: 5px Solid black;
 }
-.Dotted{
+
+.Dotted {
     border: 5px Dotted black;
 }
-.Dashed{
+
+.Dashed {
     border: 5px Dashed black;
 }
-.Double{
+
+.Double {
     border: 5px Double black;
 }
-.Groove{
+
+.Groove {
     border: 5px Groove black;
 }
-.Ridge{
+
+.Ridge {
     border: 5px Ridge black;
 }
-.Inset{
+
+.Inset {
     border: 5px Inset black;
 }
-.Outset{
+
+.Outset {
     border: 5px Outset black;
+}
+
+.variado {
+    border-style: dashed dotted solid double;
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+}
+
+@media (max-width: 500px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .container>div {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .cajita {
+        width: 500px;
+        height: 150px;
+    }
+    
 }

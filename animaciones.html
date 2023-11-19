@@ -10,21 +10,22 @@
 </head>
 
 <body>
-    <div class="navbar">
-        <a href="index.html"><i class="fa-solid fa-house"></i>Home</a>
-        <a href="bordes.html"><i class="fa-regular fa-square"></i>Bordes</a>
-        <a href="textos.html"><i class="fa-solid fa-font"></i>Textos</a>
-        <a href="fondos.html"><i class="fa-solid fa-image"></i>Fondos</a>
-        <a class="active" href="animaciones.html"><i class="fa-solid fa-film"></i>Animaciones</a>
-
-        <div onclick="toggleMenu()" class="responsive">
-            <i class="fa-solid fa-bars"></i>
+    <div class="container-navbar">
+        <div class="navbar">
+            <a href="index.html"><i class="fa-solid fa-house"></i>Home</a>
+            <a href="bordes.html"><i class="fa-regular fa-square"></i>Bordes</a>
+            <a href="textos.html"><i class="fa-solid fa-font"></i>Textos</a>
+            <a href="fondos.html"><i class="fa-solid fa-image"></i>Fondos</a>
+            <a class="active" href="animaciones.html"><i class="fa-solid fa-film"></i>Animaciones</a>
+            <button onclick="toggleMenu()" class="responsive">
+                <i class="fa-solid fa-bars"></i>
+            </button>
         </div>
     </div>
+
     <div class="introduccion">
         <h1>Animaciones de CSS</h1>
     </div>
-
     <div class="container">
         <h4>Linear</h4>
         <div class="cajita linear"></div>
@@ -40,4 +41,5 @@
 
     <script src="index.js"></script>
 </body>
+
 </html>

@@ -1,32 +1,47 @@
 .container{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: space-evenly;
-    gap: 1rem;
-    padding: 5px;
-    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+    gap: 10px;
+    height: auto;
 }
 
 .container > div{
     height: 50vh;
     width: 25vw;
-    padding: 20px 0;
-    border: 2px dashed #000000;
+    border: 1px dashed #000000;
+    border-radius: 100px 0 100px 0;
 }
 
 h4{
     text-align: center;
-    font-size: 1.1rem;
-    color: #fff;
+    font-size: 1.2rem;
+    color: #ffff;
 }
 
 .plano{
     background-color: blueviolet;
 }
 .gradiente{
-    background: linear-gradient(90deg, #ccc, #fb7070);
+    background: linear-gradient(90deg, #ccc, #fb7070, rgb(119, 9, 129));
 }
 
 .imagen{
     background: url("/assets/img/fondo.webp");
+}
+
+@media (max-width:500px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+    }
+    .container > div{
+        height: 300px;
+        width: 90vw;
+        max-height: auto;
+        border: 1px dashed #000000;
+    }
+
 }

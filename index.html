@@ -9,20 +9,21 @@
     <title>Proyecto Web Manaure Palma</title>
 </head>
 
-<body>
-    <div class="navbar">
-        <a class="active show" href="index.html"><i class="fa-solid fa-house"></i>Home</a>
-        <a class="show" href="bordes.html"><i class="fa-regular fa-square"></i>Bordes</a>
-        <a class="show" href="textos.html"><i class="fa-solid fa-font"></i>Textos</a>
-        <a class="show" href="fondos.html"><i class="fa-solid fa-image"></i>Fondos</a>
-        <a class="show" href="animaciones.html"><i class="fa-solid fa-film"></i>Animaciones</a>
-
-        <div  onclick="toggleMenu()" class="responsive">
-            <i class="fa-solid fa-bars"></i>
+<body onload="showMenuOnLargeScreen()" >
+    <div class="container-navbar">
+        <div class="navbar">
+            <a class="active" href="index.html"><i class="fa-solid fa-house"></i>Home</a>
+            <a  href="bordes.html"><i class="fa-regular fa-square"></i>Bordes</a>
+            <a  href="textos.html"><i class="fa-solid fa-font"></i>Textos</a>
+            <a  href="fondos.html"><i class="fa-solid fa-image"></i>Fondos</a>
+            <a  href="animaciones.html"><i class="fa-solid fa-film"></i>Animaciones</a>
+            <button  onclick="toggleMenu()" class="responsive">
+                <i class="fa-solid fa-bars"></i>
+            </button>
         </div>
     </div>
-    <div class="introduccion">
 
+    <div class="introduccion">
         <h1>Ejemplos de CSS</h1>
         <h2>Es esta pagina encontraras ejemplos de estilos aplicados con CSS</h2>
         <p>
