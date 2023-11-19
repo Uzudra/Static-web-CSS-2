@@ -19,14 +19,13 @@
     grid-template-columns: auto auto auto;
     background-color: rgb(131, 130, 130);
     justify-content: space-evenly;
-    gap: 10px;
+    gap: 5px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 10px 15px;
 }
-
 .grid-container > div{
     margin: 0 auto;
-    padding: 10px;
+    padding: 5px;
     background-color: rgb(255, 255, 255);
     max-width: auto;
     min-height: 50px;
@@ -39,7 +38,7 @@
     justify-content: space-evenly;
     gap: 5px;
     margin: 0 auto;
-    padding: 15px;
+    padding: 10px;
 }
 
 .grid-container1 > div{
